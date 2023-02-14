@@ -1,0 +1,344 @@
+@media screen and (max-width: 900px){
+    body{
+        padding: 0 !important;
+      
+        overflow-x: hidden;
+        transition: all 2s ease-in-out;
+    }
+
+    nav{
+        padding: 1rem !important;
+        justify-content: space-between;
+        gap: 11rem;
+    }
+    nav .navbar{
+        display: none;
+    }
+    nav .navBtn{
+        display: block;
+    }
+
+    main{
+        margin-top: 4rem;
+        padding: .01rem !important;
+    }
+    .hero-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    } 
+    .hero-section article {
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        gap: 1;
+        margin: 0 auto;
+        
+    }
+    .hero-section article h1 {
+        font-size: 2.4rem;
+        text-align: center;
+        color: var(--primary-color);
+        width: 20rem;
+    }
+    .hero-section article p:first-child{
+        font-size: 1rem;
+        width: 22rem;
+        line-height: 1.5rem;
+        text-align: center;
+        margin-left: -1rem;
+    }
+
+    section.partners{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: .1rem;
+        margin-bottom: 5rem;
+        animation: none;
+    }
+    section.partners img.arm-logo{
+        width: 10rem;
+        height: 2rem;
+    }
+
+    section.feature-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 9rem;
+        gap: 4rem;
+    }
+    .main-feature-container .feature{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+        width: 25rem;
+        margin: 0 auto;
+    }   
+
+    .main-feature-container .one{
+        flex-direction: column-reverse;
+        }
+        .feature .feature-img img{
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: -1rem;
+        }
+        .feature article h1{
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-align: center;
+            width: 20rem;
+        }
+
+        .feature article p.one{
+            width: 20rem;
+            text-align: center;
+        }
+        .feature article p.two{
+            width: 20rem;
+            text-align: center;
+        }
+        .feature article p.three{
+            width: 20rem;
+            text-align: center;
+        }
+        .feature article p.four{
+            width: 20rem;
+            text-align: center;
+        }
+        .feature article a{
+            width: 20rem;
+           text-align: center;
+        }
+    
+        /* Assets */
+        .asset-container .asset-wrapper{
+            flex-direction: column;
+            gap: 1.5rem;
+            margin: 0 auto;
+        }
+        .asset-wrapper .asset{
+            width: 23rem;
+            padding-top: 8rem;
+        }
+        .asset-wrapper .asset p:nth-child(3){
+            padding-left: .4rem;
+            padding-right: .4rem;
+        }
+        .asset-wrapper .asset .inner-asset{
+            padding-bottom: 2rem;
+        }
+        .asset-container .asset-heading p{
+            font-size: 1.1rem;
+        }
+    
+    /* Goals */
+        section.goals{
+           flex-direction: column;
+            gap: 4rem;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .goals .goals-img img{
+            width: 100%;
+        }
+        .goals article{
+           margin: 0 auto;
+           justify-content: center;
+           align-items: center;
+        }
+        .goals article p.rise-goal {
+            width: 21rem;
+            text-align: center;
+        }
+    
+        /* comfort*/
+        section.comfort{
+            margin-top: 8rem;
+            margin-bottom: 10rem;
+            gap: .1em;
+        }
+        .comfort .comfort{
+            width: 15rem;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .regulate h2{
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .regulate p{
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            width: 17rem;
+        }
+        .regulate .blue{
+            width: 10rem;     
+        }
+        .regulate .red{
+            width: 10rem;
+        }
+        
+        /* Testimonial */
+        .testimonials .testimonial-wrapper{
+            flex-direction: column;
+        }
+        .testimonial{
+            width: 20rem;
+            padding: 1rem;
+        }
+        
+    .testimonials .testimonial-heading h2{
+        font-size: 2rem;
+        width: 20rem;
+    }
+    .testimonials .testimonial-heading p{
+        width: 18rem;
+        line-height: 1.5rem;
+    }
+    
+    /* Community */
+    section.community{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 8rem;
+    }
+    section.community article{
+        gap: 1.5rem;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    section.community article h2{
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    section.community article p{
+       text-align: center;
+        width: 22rem;
+    }
+    section.community .community-img {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    section.community .community-img img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* Download app */
+    
+    section.download-app{
+        flex-direction: column;
+        gap: 0;
+        padding: 2rem 1rem 0 1rem;
+        height: 32rem;
+    }
+    section.download-app article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20rem;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    section.download-app article h2{
+        font-size: 1.3em;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+    section.download-app .download-appImg{
+        display: flex;
+        margin: 0 auto;
+    }
+    section.download-app .download-appImg img{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1.3rem;
+    }
+    footer{
+      /* flex-direction: clumn;  */
+      flex-wrap: wrap; 
+      gap: 7rem;
+    }
+    
+    
+    #logo h1 {
+        font-size: 2rem;
+        color: var(--primary-color);
+        position: relative;
+        letter-spacing: -.1rem;
+    }
+    /* Nav for mobile */
+    #navigator{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff ;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 10000;
+        transform: translateX(0);
+        transition: transform 6s ease-in-out;
+      }
+    
+      .navigator.hide{
+        transform: translateX(29rem);
+        display: none !important;
+        transition: transform 6s ease-in-out;
+    }
+      #btn {
+        width: 9rem;
+        height: 3rem;
+        border-radius: .3rem;
+    }
+      #navigator .sign{
+        display: flex;
+        margin-left: 2rem;
+        margin-top: 3rem;
+        align-items: center;
+        gap: 3rem;
+      }
+      .navigator a{
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--primary-color);   
+      }
+      /* List items on nav bar for mobile */
+      .mobile-links{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        gap: 2rem;
+      }
+    
+       .mobile-links li{
+        list-style-type: none;
+    }
+  
+
+
+}
